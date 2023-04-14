@@ -1,5 +1,6 @@
-//creating a router constant that 
-//will require our express constant
+// creating a router constant that 
+// will require our express constant 
+// and out database from db
 const router = require("express").Router();
 const Database = require("../db/database");
 
@@ -16,5 +17,5 @@ router.delete('/notes/:id', (req, res) =>
   Database.deleteNote(req.params.id).then(notes => res.json(notes)).catch(err => res.json(err))
 );
 
-//exporging our module as router const
+//exporting our module as router const
 module.exports = router;

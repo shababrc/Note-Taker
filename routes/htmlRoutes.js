@@ -1,11 +1,7 @@
 //creating a router for express
-
+//then creating a const to require our path
 const router = require("express").Router();
 const path = require('path');
-
-
-
-
 
 //GET Route for homepage
 router.get('/notes', (req, res) =>
@@ -17,4 +13,5 @@ router.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, "../public/index.html"))
 );
 
+//export our router
 module.exports = router;
