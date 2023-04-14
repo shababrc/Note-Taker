@@ -65,12 +65,12 @@ Then including a listener for our app and returning message that app is listenin
 ## Completed Application Screen Recording:
 ![NoteTakerDemo](./notesappdemo.gif) 
 
-
 ## Link to Github Repo:
 
 https://github.com/shababrc/Note-Taker
 
 ## Link to Deployed Site:
+
 
 ## Credits:
 Credits to the rest of the ucla bootcamp class for additional help on this assignment. Credit to Bryan and Shawn from the teaching staff, and credits to tutor Irina Kudosova.

@@ -21,5 +21,5 @@ app.use('/', html);
 // listener for our app and returning message that app is 
 // listening at our port
 app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT} 🚀`)
+  console.log(`App listening at http://localhost:${PORT}`)
 );
