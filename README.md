@@ -62,7 +62,9 @@ Include middleware for parsing JSON and urlencoded form data.
 Then including a listener for our app and returning message that app is listening at our port and connected to the server.
 
 
-## Completed Application Screen Recording
+## Completed Application Screen Recording:
+![NoteTakerDemo](./notesappdemo.gif) 
+
 
 ## Link to Github Repo:
 

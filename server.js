@@ -5,7 +5,7 @@
 const express = require('express');
 const api = require('./routes/apiRoutes.js');
 const html = require('./routes/htmlRoutes.js');
-const PORT = process.env.port || 5000;
+const PORT = process.env.port || 3001;
 
 //express const for us to use
 const app = express();
